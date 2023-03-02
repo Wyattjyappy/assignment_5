@@ -1,0 +1,13 @@
+---
+title: "assignment_5"
+author: "Wyatt"
+date: "2023-03-02"
+output: github_document
+---
+
+library(tidyverse)
+library(knitr)
+library(gapminder)
+
+
+
