@@ -78,11 +78,13 @@ housing %>%
   
   
 ```` {r}
-housing %>%
+
+housing %>% 
   mutate(Mean_land_value = mean(Land.Value)) %>% 
   filter(region == "Midwest") %>% 
   select(region, Date, Mean_land_value) %>% 
   head()
+
 ````
   <br>
 
