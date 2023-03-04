@@ -21,7 +21,7 @@ Services of Harvard University.
 housing <- read_csv("https://raw.githubusercontent.com/nt246/NTRES-6100-data-science/master/datasets/landdata_states.csv")
 housing %>%
   head() %>% 
-  kable() 
+  kable()
 ```
 
 | State | region |    Date | Home.Value | Structure.Cost | Land.Value | Land.Share..Pct. | Home.Price.Index | Land.Price.Index | Year | Qrtr |

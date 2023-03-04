@@ -54,6 +54,8 @@ housing %>%
 | South  | DC    |     361999 | 2004.00 |
 | South  | DC    |     382792 | 2004.25 |
 
+<br>
+
 ``` r
 housing %>% 
   replace(is.na(housing), "South") %>% 

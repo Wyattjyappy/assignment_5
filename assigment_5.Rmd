@@ -55,8 +55,9 @@ housing %>%
   | South  | DC    |     342010 | 2003.75 |
   | South  | DC    |     361999 | 2004.00 |
   | South  | DC    |     382792 | 2004.25 |
-  
-```` r
+
+<br>
+````r
 housing %>% 
   replace(is.na(housing), "South") %>% 
   select(region, State, Land.Value, Date) %>% 
