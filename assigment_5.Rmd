@@ -21,7 +21,7 @@ This excercise uses a dataset that describes the trends in land value
 variable `region`. This dataset was obtained from the Data Science
 Services of Harvard University.
 
-``` r
+``` {r}
 housing <- read_csv("https://raw.githubusercontent.com/nt246/NTRES-6100-data-science/master/datasets/landdata_states.csv")
 housing %>%
   head() %>% 
@@ -62,6 +62,7 @@ housing %>%
   select(region, State, Land.Value, Date) %>% 
   filter(State == "DC") %>% 
   head()
+
 ````
 <br>
 
